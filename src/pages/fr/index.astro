@@ -1,0 +1,105 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import RiskVisual from '../../components/RiskVisual.astro';
+---
+<SiteLayout
+  lang="fr"
+  title="CausaVera — Intelligence du risque d'affaires"
+  description="CausaVera relie les services d'affaires, systèmes, applications, contrôles, éléments de preuve attendus et obligations aux impacts et risques d'affaires."
+>
+  <header class="container header">
+    <a class="brand" href="/fr/">CausaVera</a>
+    <nav class="nav">
+      <a href="#approche">Notre approche</a>
+      <a href="#publications">Publications</a>
+      <a href="#apropos">À propos</a>
+      <a class="lang" href="/">EN</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <span class="eyebrow">Intelligence du risque d'affaires</span>
+      <h1>Comprendre ce que le risque technologique signifie pour l'entreprise.</h1>
+      <p>
+        CausaVera relie les services d'affaires, les systèmes, les applications, les contrôles,
+        les obligations, les éléments de preuve attendus et l'efficacité des contrôles afin d'aider
+        les dirigeants à comprendre ce qui compte, pourquoi cela compte et où concentrer l'attention.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#approche">Découvrir l'approche</a>
+        <a class="button secondary" href="#publications">Lire les recherches</a>
+      </div>
+    </section>
+
+    <RiskVisual />
+
+    <section id="approche" class="section">
+      <div class="container">
+        <h2>La conformité n'est pas une finalité.</h2>
+        <p class="lede">
+          Une défaillance de contrôle, une vulnérabilité ou un écart de conformité ne représente que le début de la question.
+          CausaVera est conçu pour relier cette condition au service d'affaires touché, aux éléments de preuve attendus,
+          à l'efficacité du contrôle et aux conséquences possibles pour l'organisation.
+        </p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Commencer par l'entreprise</h3>
+            <p>Relier la technologie et les contrôles aux services dont l'organisation dépend réellement.</p>
+          </article>
+          <article class="card">
+            <h3>Relier l'histoire du contrôle</h3>
+            <p>Rassembler obligations, éléments de preuve attendus et efficacité des contrôles dans une chaîne compréhensible.</p>
+          </article>
+          <article class="card">
+            <h3>Rendre le risque décisionnel</h3>
+            <p>Traduire les conditions techniques en contexte exploitable par les dirigeants, les équipes de risque et les opérations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <h2>Publications et recherches</h2>
+        <p class="lede">
+          La série bilingue de CausaVera explore l'écart entre les rapports de conformité traditionnels
+          et une véritable intelligence du risque d'affaires prête à soutenir la décision.
+        </p>
+        <div class="pdf-list">
+          <div class="pdf-item">
+            <strong>Article 01</strong>
+            <div>
+              <strong>Intelligence du risque d'affaires</strong><br />
+              <small>Paire de publication française et anglaise</small>
+            </div>
+            <span class="status">Préparation</span>
+          </div>
+          <div class="pdf-item">
+            <strong>Série</strong>
+            <div>
+              <strong>Bibliothèque éducative en 12 parties</strong><br />
+              <small>Les PDF bilingues seront publiés ici à mesure qu'ils seront approuvés.</small>
+            </div>
+            <span class="status">En révision</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="container">
+        <h2>Des constats techniques au sens pour l'entreprise.</h2>
+        <p class="lede">
+          CausaVera est conçu pour raisonner sur l'ensemble de la chaîne :
+          Service d'affaires → Systèmes → Applications → Contrôles → Obligations → Preuves attendues →
+          Efficacité des contrôles → Impact / risque d'affaires.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    CausaVera — Intelligence du risque d'affaires.
+  </footer>
+</SiteLayout>
