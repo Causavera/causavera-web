@@ -1,0 +1,105 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import RiskVisual from '../components/RiskVisual.astro';
+---
+<SiteLayout
+  lang="en"
+  title="CausaVera — Business Risk Intelligence"
+  description="CausaVera connects services, systems, applications, controls, evidence and obligations to business impact and risk."
+>
+  <header class="container header">
+    <a class="brand" href="/">CausaVera</a>
+    <nav class="nav">
+      <a href="#approach">How we think</a>
+      <a href="#insights">Insights</a>
+      <a href="#about">About</a>
+      <a class="lang" href="/fr/">FR</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <span class="eyebrow">Business Risk Intelligence</span>
+      <h1>See what technology risk means to the business.</h1>
+      <p>
+        CausaVera connects business services, systems, applications, controls,
+        obligations, expected evidence and control effectiveness so leaders can
+        understand what matters, why it matters, and where attention belongs.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#approach">Explore the approach</a>
+        <a class="button secondary" href="#insights">Read the research</a>
+      </div>
+    </section>
+
+    <RiskVisual />
+
+    <section id="approach" class="section">
+      <div class="container">
+        <h2>Compliance is not the destination.</h2>
+        <p class="lede">
+          A control failure, vulnerability or compliance issue is only the beginning of the question.
+          CausaVera is designed to connect that condition to the business service it can affect,
+          the evidence expected, the control's effectiveness, and the resulting business consequence.
+        </p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Start with the business</h3>
+            <p>Anchor technology and controls to the services the organization actually depends on.</p>
+          </article>
+          <article class="card">
+            <h3>Connect the control story</h3>
+            <p>Bring obligations, expected evidence and control effectiveness into one understandable chain.</p>
+          </article>
+          <article class="card">
+            <h3>Make risk decision-ready</h3>
+            <p>Translate technical conditions into context that executives, risk teams and operators can act on.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="insights" class="section">
+      <div class="container">
+        <h2>Insights & research</h2>
+        <p class="lede">
+          CausaVera's bilingual article series explores the gap between traditional compliance reporting
+          and decision-ready business risk intelligence.
+        </p>
+        <div class="pdf-list">
+          <div class="pdf-item">
+            <strong>Article 01</strong>
+            <div>
+              <strong>Business Risk Intelligence</strong><br />
+              <small>English and French publication pair</small>
+            </div>
+            <span class="status">Preparing release</span>
+          </div>
+          <div class="pdf-item">
+            <strong>Series</strong>
+            <div>
+              <strong>12-part market education library</strong><br />
+              <small>Paired bilingual PDFs will be published here as they are approved.</small>
+            </div>
+            <span class="status">In review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>From findings to business meaning.</h2>
+        <p class="lede">
+          CausaVera is being built to help organizations reason across the complete chain:
+          Business Service → Systems → Applications → Controls → Obligations → Expected Evidence →
+          Control Effectiveness → Business Impact / Risk.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    CausaVera — Business Risk Intelligence.
+  </footer>
+</SiteLayout>
