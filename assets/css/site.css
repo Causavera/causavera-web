@@ -84,3 +84,7 @@ footer{border-top:1px solid var(--line);padding:30px 0 42px;color:#536578}
   .lede{font-size:18px}
   .footer-wrap{flex-direction:column;align-items:flex-start}
 }
+.lang-switch{display:flex;align-items:center;gap:7px;margin-left:auto;font-size:13px;color:#526579;white-space:nowrap}
+.lang-switch strong{color:var(--navy)}
+.lang-switch a{color:var(--teal);font-weight:700}
+@media (max-width:860px){.lang-switch{margin-left:auto}}
